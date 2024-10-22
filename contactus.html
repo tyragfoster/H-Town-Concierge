@@ -8,15 +8,20 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body>
-<header>
-</header>
-<main>
-
-
-</main>
-<footer>
-
-</footer>
-</body>
+<form>
+    <h1>Contact Us</h1>
+    <h3>Name</h3>
+    <input type="text" id="Name" name="Name" placeholder="First and last name" size="50">
+    <h3>Email</h3>
+    <input type="text" id="Email" name="Email" size="50">
+    <h3 id="Reason">Reason for Contact</h3>
+    <select id="Reason" name="Reason">
+      <option>Event Advertising</option>
+      <option>General Suggestions</option>
+      <option>Other</option>
+    </select>
+    <h3>Questions/Comments</h3>
+    <textarea id="comments" name="comments" rows="5" cols="50"></textarea><br><br>
+    <input type="submit" value="Submit">
+</form>
 </html>
