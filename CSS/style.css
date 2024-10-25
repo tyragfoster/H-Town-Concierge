@@ -3,6 +3,11 @@ html{
 h1 {
     text-align: center;
 }
+body{
+  margin: 0;
+  padding: 0;
+}
+
 .league-spartan {
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
