@@ -21,7 +21,10 @@ body{
 	grid-template-rows: [row1] 2fr [row2] 1fr [row3] 10fr [row4] 2fr;
     padding: 0px 0px 0px 0px;
 }
-
+.landing-header{
+    height: 100px;
+    background-color: #A4C046;
+}
 .header {
 	background-color: #658db5;
 	padding: 25px;
