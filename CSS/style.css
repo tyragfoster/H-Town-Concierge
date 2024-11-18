@@ -124,6 +124,15 @@ body {
   border-radius: 20px;
 }
 
+.landingpageparagraph  {
+  text-align: center;
+  font-family: "League Spartan";
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 0 20px 0 20px;
+  line-height: 1.5em;
+}
+
 .landingpagetextbox p {
   height: 50px;
   width: 300px;
@@ -131,6 +140,7 @@ body {
   overflow-wrap: break-word;
   text-align: left;
   font-family: "League Spartan";
+  font-size: 16px;
 }
 
 /* Footer CSS */
