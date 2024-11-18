@@ -30,6 +30,14 @@ body {
   grid-template-rows: [row1] 2fr [row2] 1fr [row3] 10fr [row4] 2fr;
   padding: 0px 0px 0px 0px;
 }
+
+#button {
+  background-color: #a4c046;
+  border: none; 
+  border-radius: 5px;
+  font-weight: bold;
+  }
+  
 .landing-header {
   height: 100px;
   background-color: #a4c046;
@@ -120,6 +128,8 @@ body {
   font-family: "League Spartan";
 }
 
+/* Footer CSS */
+
 .footer {
   background-color: #346fad;
   color: white;
@@ -195,11 +205,16 @@ body {
   border-collapse: separate;
 }
 
+.column4 img{
+  width: 40px;
+  height: 50px;
+}
+
 .socials {
   background-color: #29588a;
   border-radius: 20px;
-  padding: 5px 0 5px 0;
-  height: 85px;
+  padding: 10px 0 5px 0;
+  height: 95px;
   width: 260px;
   align-items: center;
 }
