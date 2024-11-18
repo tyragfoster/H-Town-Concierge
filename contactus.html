@@ -2,15 +2,48 @@
 <html lang="en">
 <head>
 <title>Contact Us</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="CSS/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<div class="container">
-    <header class="header">HEADER</header>
-    <nav class="navbar">NAVIGATION</nav>
     <body>
+        <body>
+            <header>
+              <div class="landing-header">
+                <form>
+                  <div class="search">
+                    <input
+                      class="search-input"
+                      type="search"
+                      placeholder="Looking for Something Particular?"
+                    />
+                    <span class="material-symbols-outlined">search</span>
+                  </div>
+                  <img src="Images/Logo.png" />
+                </form>
+              </div>
+              <div class="heroimage"> </div>
+              <nav class="nav-container">
+                <ul class="nav-list">
+                  <li class="nav-button">
+                    <a href="landingpage.html"><img src="images/icons/Home.svg" alt="Home icon"/></a>
+                  </li>
+                  <li class="nav-button">
+                    <a href="aboutus.html"><img src="images/icons/about.svg" alt="About us icon"/></a>
+                  </li>
+                  <li class="nav-button">
+                    <a href="attractions.html"><img src="images/icons/Attractions.svg" alt="Attractions icon"/></a>
+                  </li>
+                  <li class="nav-button">
+                    <a href="events.html"><img src="images/icons/Events.svg" alt="Events icon"/></a>
+                  </li>
+                  <li class="nav-button">
+                    <a href="contactus.html"><img src="images/icons/contact.svg" alt="Contact us icon"/></a>
+                  </li>
+                </ul>
+              </nav>
+            </header>
     <form class="league-spartan" id="Contact">
         <h1>Contact Us</h1>
         <h3>Name</h3>
@@ -27,7 +60,60 @@
         <textarea id="comments" name="comments" rows="5" cols="50"></textarea><br><br>
         <input type="submit" value="Submit">
     </form>
-<footer class="footer">FOOTER</footer>
+<footer>
+    <div class="footer">
+      <div class="column1">
+        <img
+          src="Images/Logo.png"
+          alt="H-Town-Concierge Logo: Letter H with Baseball Cap"
+        />
+      </div>
+      <div class="column2">
+        <h2>Don't Miss Out!</h2>
+        <p>Sign-up to be the First To Know About Upcoming Events!</p>
+        <form>
+          <div class="footerform">
+            <input
+              class="footer-input"
+              type="email"
+              placeholder="Enter Your Email Address"
+              required
+            />
+            <input
+              class="submit-arrow"
+              type="image"
+              src="Images/emailarrow.png"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="column3">
+        <a href="landingpage.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="attractions.html">Attractions</a>
+        <a href="events.html">Events</a>
+        <a href="contactus.html">Contact Us</a>
+      </div>
+
+      <div class="column4">
+        <div class="socials">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="Images/Facebook.png" alt="" />
+          </a>
+          <a href="https://mail.google.com/mail/u/0/" target="_blank">
+            <img src="Images/Mail.png" alt="" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="Images/Instagram.png" alt="" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img src="Images/Instagram.png" alt="" />
+          </a>
+          <p>Connect with us!</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </div>
 </html>
