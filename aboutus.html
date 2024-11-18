@@ -1,114 +1,126 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Attractions</title>
-    <link rel="stylesheet" href="CSS/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="landing-header">
-        <form>
-          <div class="search">
-            <input
-              class="search-input"
-              type="search"
-              placeholder="Looking for Something Particular?"
-            />
-            <span class="material-symbols-outlined">search</span>
-          </div>
-          <img src="Images/Logo.png" />
-        </form>
-      </div>
-      <div class="heroimage"><!--Background Image added in CSS--></div>
-      <nav class="nav-container">
-        <ul class="nav-list">
-          <li class="nav-button">
-            <a href="landingpage.html"
-              ><img src="images/icons/Home.svg" alt="Home icon"
-            /></a>
-          </li>
-          <li class="nav-button">
-            <a href="aboutus.html"
-              ><img src="images/icons/about.svg" alt="About us icon"
-            /></a>
-          </li>
-          <li class="nav-button">
-            <a href="attractions.html"
-              ><img src="images/icons/Attractions.svg" alt="Attractions icon"
-            /></a>
-          </li>
-          <li class="nav-button">
-            <a href="events.html"
-              ><img src="images/icons/Events.svg" alt="Events icon"
-            /></a>
-          </li>
-          <li class="nav-button">
-            <a href="contactus.html"
-              ><img src="images/icons/contact.svg" alt="Contact us icon"
-            /></a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <title>About Us</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <header>
+    <div class="landing-header">
+      <form>
+        <div class="search">
+          <input
+            class="search-input"
+            type="search"
+            placeholder="Looking for Something Particular?"
+          />
+          <span class="material-symbols-outlined">search</span>
+        </div>
+        <img src="Images/Logo.png" />
+      </form>
+    </div>
+<!--My code starts here-->
+    <div class="heroimage"><!--Background Image added in CSS--></div>
+<!--navigation bar-->
+    <nav class="nav-container">
+      <ul class="nav-list">
+        <li class="nav-button">
+          <a href="landingpage.html"><img src="images/icons/Home.svg" alt="Home icon"/></a>
+        </li>
+        <li class="nav-button">
+          <a href="aboutus.html"><img src="images/icons/about.svg" alt="About us icon"/></a>
+        </li>
+        <li class="nav-button">
+          <a href="attractions.html"><img src="images/icons/Attractions.svg" alt="Attractions icon"/></a>
+        </li>
+        <li class="nav-button">
+          <a href="events.html"><img src="images/icons/Events.svg" alt="Events icon"/></a>
+        </li>
+        <li class="nav-button">
+          <a href="contactus.html"><img src="images/icons/contact.svg" alt="Contact us icon"/></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="about-container">
+      <article class="about-left">
+        <h1>About Us</h1>
+        <p>&nbsp H-Town Concierge is the collaborative work of four University of Houston DIGM 2351 Web Design students,
+          who sought to provide a service that reaches a broad audience and fosters a sense of community. 
+          Our user-friendly platform serves as a concierge,
+          to help users learn about Houston's cultural diversity and dynamicity,
+          by showcasing things to do in and around the city.
+          Additionally, this website is a user-friendly tool that allows promoters to recommend activities
+          that users can tailor to their interests and locations.
+        </p>
+      </article>
+      <article class="about-right">
+        <div class="pic1"><img src="Images/about/about1.png" alt="tinsley park"></div>
+        <div class="pic3"><img src="Images/about/about3.png" alt="houston rodeo"></div>
+        <div class="pic4"><img src="Images/about/about4.png" alt="NRG stadium"></div>
+        <div class="pic2"><img src="Images/about/about2.png" alt="anime character"></div>
+        
+      </article>
+    </div>
+  </main>
 
-    <footer>
-      <div class="footer">
-        <div class="column1">
-          <img
-            src="Images/Logo.png"
-            alt="H-Town-Concierge Logo: Letter H with Baseball Cap"
+<footer>
+  <div class="footer">
+    <div class="column1">
+      <img
+        src="Images/Logo.png"
+        alt="H-Town-Concierge Logo: Letter H with Baseball Cap"
+      />
+    </div>
+    <div class="column2">
+      <h2>Don't Miss Out!</h2>
+      <p>Sign-up to be the First To Know About Upcoming Events!</p>
+      <form>
+        <div class="footerform">
+          <input
+            class="footer-input"
+            type="email"
+            placeholder="Enter Your Email Address"
+            required
+          />
+          <input
+            class="submit-arrow"
+            type="image"
+            src="Images/emailarrow.png"
           />
         </div>
-        <div class="column2">
-          <h2>Don't Miss Out!</h2>
-          <p>Sign-up to be the First To Know About Upcoming Events!</p>
-          <form>
-            <div class="footerform">
-              <input
-                class="footer-input"
-                type="email"
-                placeholder="Enter Your Email Address"
-                required
-              />
-              <input
-                class="submit-arrow"
-                type="image"
-                src="Images/emailarrow.png"
-              />
-            </div>
-          </form>
-        </div>
-        <div class="column3">
-          <a href="landingpage.html">Home</a>
-          <a href="aboutus.html">About Us</a>
-          <a href="attractions.html">Attractions</a>
-          <a href="events.html">Events</a>
-          <a href="contactus.html">Contact Us</a>
-        </div>
+      </form>
+    </div>
+    <div class="column3">
+      <a href="landingpage.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="attractions.html">Attractions</a>
+      <a href="events.html">Events</a>
+      <a href="contactus.html">Contact Us</a>
+    </div>
 
-        <div class="column4">
-          <div class="socials">
-            <a href="https://www.facebook.com/" target="_blank">
-              <img src="Images/Facebook.png" alt="" />
-            </a>
-            <a href="https://mail.google.com/mail/u/0/" target="_blank">
-              <img src="Images/Mail.png" alt="" />
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-              <img src="Images/Instagram.png" alt="" />
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-              <img src="Images/Instagram.png" alt="" />
-            </a>
-            <p>Connect with us!</p>
-          </div>
-        </div>
+    <div class="column4">
+      <div class="socials">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="Images/Facebook.png" alt="" />
+        </a>
+        <a href="https://mail.google.com/mail/u/0/" target="_blank">
+          <img src="Images/Mail.png" alt="" />
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="Images/Instagram.png" alt="" />
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="Images/Instagram.png" alt="" />
+        </a>
+        <p>Connect with us!</p>
       </div>
-    </footer>
-  </body>
+    </div>
+  </div>
+</footer>
+</body>
 </html>

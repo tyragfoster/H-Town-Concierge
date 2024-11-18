@@ -299,20 +299,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 .tile-container {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
   align-items:center;
   justify-content:left;
-  flex: 0 0 35%;
+  flex: 0 0 40%;
   margin: 5px;
   border-radius: 5px;
   border-color: black;
   border-width: 1px;
   border-style: solid;
+  width: 200px;
+  height: 200px;
+  background-color: whitesmoke;
 }
 
 .tile-description {
@@ -327,11 +330,10 @@ a {
   color: black;
 }
 .tiles img {
-  align-items: center;
-  justify-content: center;
+  object-fit:cover;
   border-radius: 5px 5px 0 0;
-  max-height: 100%;
-  max-width: 100%;
+  height: 90%;
+  width: 90%;
 }
 .att-map {
   display: flex;
@@ -342,6 +344,37 @@ a {
   grid-area: map;
 }
 
+/*--About Us Page*/
+.about-container {
+  display: grid;
+  margin: 10%;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow:0 4px 10px whitesmoke;
+}
+.about-container h1 {
+  color: #eb6b21;
+}
+
+.about-container p {
+  line-height: 2;
+}
+.about-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.about-right img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow:0 4px 10px whitesmoke;
+}
 /*--Small screen compatibility--*/
 @media all and (max-width: 600px) {
   .nav-list {
