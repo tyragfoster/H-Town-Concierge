@@ -211,7 +211,8 @@ body{
 
 }
 #button {
-background-color: #a4c046;   
+background-color: #a4c046;
+border: none; 
 }
 .socials {
     background-color: #29588A;
