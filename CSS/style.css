@@ -411,19 +411,27 @@ a {
 }
 
 .about-container p {
-  line-height: 2;
+  line-height: 2em;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300px;
+  font-style:inherit;
+
 }
 .about-right {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
+
 .about-right img {
   width: 100%;
-  height: auto;
+  height: 200px;
   border-radius: 8px;
   object-fit: cover;
   box-shadow:0 4px 10px whitesmoke;
+  border: 2px solid black;
+  justify-content: center;
 }
 /*--Small screen compatibility--*/
 @media all and (max-width: 600px) {
