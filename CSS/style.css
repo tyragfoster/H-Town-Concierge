@@ -124,6 +124,16 @@ body {
   border-radius: 20px;
 }
 
+.imagecontainer img:hover  {
+  transform: scale(1.2);
+}
+
+.imagecontainer p {
+  padding-top: 30px;
+  align-items: center;
+}
+
+
 .landingpageparagraph  {
   text-align: center;
   font-family: "League Spartan";
@@ -569,6 +579,11 @@ a {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   
+}
+
+.grid-item:hover{
+  transform:scale(1.2);
+  color: #cf7ac3;
 }
 
 .grid-item img {
