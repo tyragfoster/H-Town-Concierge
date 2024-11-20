@@ -47,6 +47,7 @@ body {
 .headerlogo img{
   width: 205px;
   height: 105px;
+  margin-left: 20px;
 }
 .header {
   background-color: #658db5;
@@ -78,6 +79,7 @@ body {
   border-radius: 10px;
   float: right;
   margin-top: 30px;
+  margin-right: 20px;
 }
 
 .search-input {
