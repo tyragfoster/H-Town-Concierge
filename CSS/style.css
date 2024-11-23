@@ -542,6 +542,9 @@ a {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 3px;
+  align: center;
+	justify-content: flex-end;
+
 
 }
 
